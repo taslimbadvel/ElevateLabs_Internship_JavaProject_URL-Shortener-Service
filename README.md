@@ -8,21 +8,24 @@ Built with Java, Spring Boot, and H2 in-memory database.
 ## Project Structure
 
 
+src
 └── main
 ├── java
-│ └── com.example.urlshortener
-│ ├── controller
-│ │ └── UrlController.java # REST endpoints
-│ ├── model 
-│ │ └── UrlMapping.java # Entity class
-│ ├── repository
-│ │ └── UrlMappingRepository.java # JPA repository
-│ ├── service
-│ │ └── UrlService.java # Business logic
-│ └── util
-│ └── Base62.java # Base62 encoding utility
+│   └── com.example.urlshortener
+│       ├── controller
+│       │    └── UrlController.java        # REST endpoints
+│       ├── model
+│       │    └── UrlMapping.java           # Entity class
+│       ├── repository
+│       │    └── UrlMappingRepository.java # JPA repository
+│       ├── service
+│       │    └── UrlService.java           # Business logic
+│       └── util
+│            └── Base62.java               # Base62 encoding utility
 └── resources
-└── application.properties # Configuration file
+├── application.properties             # Configuration file
+└── data.sql (optional)                # Initial data setup
+
 
 
 ---
