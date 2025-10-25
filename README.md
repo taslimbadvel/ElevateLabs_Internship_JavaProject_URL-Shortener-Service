@@ -30,17 +30,17 @@ Built with Java, Spring Boot, and H2 in-memory database.
 
 ## Tech Stack
 
-- **Java 17+**
-- **Spring Boot 3**
-- **Spring Data JPA**
-- **H2 Database (in-memory)**
-- **Maven**
+    **Java 17+**
+    **Spring Boot 3**
+    **Spring Data JPA**
+    **H2 Database (in-memory)**
+    **Maven**
 
 ## Tools
-**Postman (for API testing)**
-**Swagger (Springdoc OpenAPI 3)**
-**IntelliJ IDEA (IDE)**
-**Git & GitHub (version control)**
+    **Postman (for API testing)**
+    **Swagger (Springdoc OpenAPI 3)**
+    **IntelliJ IDEA (IDE)**
+    **Git & GitHub (version control)**
 
 
 ---
@@ -64,12 +64,14 @@ Built with Java, Spring Boot, and H2 in-memory database.
 | GET     | `api/v1/{code}`        | Redirect to original URL   |
 | GET     | `/api/v1/{code}/stats` | View stats for a short URL |
 | GET     | `/api/v1/links`        | List all shortened URLs    |
+
 ---
 
 ## Example Usage
 **Postman Guide**(option1)
 
-###  1. Shorten a URL
+1. Shorten a URL
+
 Request  
     POST http://localhost:8080/api/v1/shorten
 
@@ -78,29 +80,10 @@ Request
     {
         "longUrl": "https://www.google.com/search?q=spring+boot+url+shortener"
     }
-Response
+**Response**
     json:
     {
     "shortUrl": "http://localhost:8080/1"
-    }
-
-## Run Locally
-
-Prerequisites:
-
-Java 17+
-
-Maven installed
-
-**Steps**
-# Clone the repository
-git clone https://github.com/your-username/urlshortener.git
-
-# Navigate into project
-cd urlshortener
-
-# Run the application
-mvn spring-boot:run
 
 
 **Swagger UI**(option2)
@@ -112,6 +95,29 @@ After running the project, open:
 👉 http://localhost:8080/swagger-ui/index.html
 
 You’ll see all API endpoints with the option to test them directly.
+
+---
+
+
+## Run Locally
+
+Prerequisites:
+
+Java 17+
+
+Maven installed
+
+**Steps**
+# Clone the repository
+git clone https://github.com/taslimbadvel/ElevateLabs_Internship_JavaProject_URL-Shortener-Service.git
+
+# Navigate into project
+cd urlshortener
+
+# Run the application
+mvn spring-boot:run
+
+----
 
 ## Database
 
