@@ -1,0 +1,16 @@
+# Maven
+target/
+*.log
+*.iml
+
+# IntelliJ IDEA
+.idea/
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# H2 database (if file-based)
+data/
