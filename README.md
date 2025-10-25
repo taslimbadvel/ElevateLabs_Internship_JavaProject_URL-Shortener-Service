@@ -84,7 +84,7 @@ Request
     json:
     {
     "shortUrl": "http://localhost:8080/1"
-
+    }
 
 **Swagger UI**(option2)
 
