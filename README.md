@@ -22,7 +22,7 @@ Built with Java, Spring Boot, and H2 in-memory database.
         │       └── util
         │            └── Base62.java               # Base62 encoding utility
         └── resources
-        ├── application.properties             # Configuration file
+        ├── application.properties                 # Configuration file
                      
         
 
@@ -112,13 +112,16 @@ You’ll see all API endpoints with the option to test them directly.
 
 ## Steps
  **Clone the repository:**
+ 
     git clone https://github.com/taslimbadvel/ElevateLabs_Internship_JavaProject_URL-Shortener-Service.git
         
  **Navigate into project:**
-     cd urlshortener
+   
+      cd urlshortener
     
  **Run the application:**
-    mvn spring-boot:run
+   
+     mvn spring-boot:run
 
 ----
 
@@ -129,7 +132,8 @@ This project uses the H2 in-memory database.
 All data is temporary and will be lost when the application restarts.
 
 You can access the H2 Console at:
-👉 http://localhost:8080/h2-console
+    
+        http://localhost:8080/h2-console
 
 **JDBC URL** (based on `application.properties`):
 - In-memory: `jdbc:h2:mem:urlshortener`
