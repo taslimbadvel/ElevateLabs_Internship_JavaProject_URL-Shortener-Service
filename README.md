@@ -1,4 +1,4 @@
-## URL Shortener
+## URL Shortener Service(Java,SpringBoot,H2 Database)
 
 A simple Spring Boot application that shortens long URLs into short, shareable links — similar to Bitly or TinyURL.  
 Built with Java, Spring Boot, and H2 in-memory database.
