@@ -111,14 +111,14 @@ You’ll see all API endpoints with the option to test them directly.
     Maven installed
 
 ## Steps
- **Clone the repository**
-  git clone https://github.com/taslimbadvel/ElevateLabs_Internship_JavaProject_URL-Shortener-Service.git
+ **Clone the repository:**
+    git clone https://github.com/taslimbadvel/ElevateLabs_Internship_JavaProject_URL-Shortener-Service.git
         
- **Navigate into project**
-  cd urlshortener
+ **Navigate into project:**
+     cd urlshortener
     
- **Run the application**
-  mvn spring-boot:rungit
+ **Run the application:**
+    mvn spring-boot:run
 
 ----
 
