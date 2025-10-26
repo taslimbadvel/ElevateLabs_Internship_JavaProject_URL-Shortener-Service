@@ -74,29 +74,30 @@ Built with Java, Spring Boot, and H2 in-memory database.
 
 **Request**  
             **POST** http://localhost:8080/api/v1/shorten
-        
-                json:
+            **json:**
             
                 {
                     "longUrl": "https://www.google.com/search?q=spring+boot+url+shortener"
                 }
+
 **Response**
             **json:**
-                {
-                "shortUrl": "http://localhost:8080/1"
-                }
+
+                 {
+                    "shortUrl": "http://localhost:8080/1"
+                 }          
 
 
 **Swagger UI**(option2)
 
-    The project includes Swagger (Springdoc OpenAPI) for easy browser-based testing.
-    
-    After running the project, open:
-    
-    http://localhost:8080/swagger-ui/index.html
-    
-    You’ll see all API endpoints with the option to test them directly.
+The project includes Swagger (Springdoc OpenAPI) for easy browser-based testing.
 
+After running the project, open:
+    
+http://localhost:8080/swagger-ui/index.html
+    
+You’ll see all API endpoints with the option to test them directly.
+    
 ---
 
 
@@ -109,33 +110,33 @@ Built with Java, Spring Boot, and H2 in-memory database.
     Maven installed
 
 **Steps**
-    # Clone the repository
-    git clone https://github.com/taslimbadvel/ElevateLabs_Internship_JavaProject_URL-Shortener-Service.git
+# Clone the repository
+  git clone https://github.com/taslimbadvel/ElevateLabs_Internship_JavaProject_URL-Shortener-Service.git
+        
+# Navigate into project
+  cd urlshortener
     
-    # Navigate into project
-    cd urlshortener
-    
-    # Run the application
-    mvn spring-boot:run
+# Run the application
+  mvn spring-boot:run
 
 ----
 
 ## Database
 
-    This project uses the H2 in-memory database.
-    
-    All data is temporary and will be lost when the application restarts.
-    
-    You can access the H2 Console at:
-    👉 http://localhost:8080/h2-console
-    
-    **JDBC URL** (based on `application.properties`):
-    - In-memory: `jdbc:h2:mem:urlshortener`
-      - File (persistent): `jdbc:h2:file:./data/urlshortener`  
-        User: `sa`  
-        Password: *(leave empty)*
- 
-_Result:_
+This project uses the H2 in-memory database.
+
+All data is temporary and will be lost when the application restarts.
+
+You can access the H2 Console at:
+👉 http://localhost:8080/h2-console
+
+**JDBC URL** (based on `application.properties`):
+- In-memory: `jdbc:h2:mem:urlshortener`
+- File (persistent): `jdbc:h2:file:./data/urlshortener`  
+User: `sa`  
+Password: *(leave empty)*
+
+**Result:**
         
         SELECT * FROM URL_MAPPING;
 
