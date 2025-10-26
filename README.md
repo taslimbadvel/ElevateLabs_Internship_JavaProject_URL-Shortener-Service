@@ -73,15 +73,16 @@ Built with Java, Spring Boot, and H2 in-memory database.
 **1. Shorten a URL**
 
 **Request**  
-            **POST** http://localhost:8080/api/v1/shorten
-            **json:**
+   **(Post Method):** http://localhost:8080/api/v1/shorten
+
+   **json:**
             
                 {
                     "longUrl": "https://www.google.com/search?q=spring+boot+url+shortener"
                 }
 
 **Response**
-            **json:**
+    **json:**
 
                  {
                     "shortUrl": "http://localhost:8080/1"
