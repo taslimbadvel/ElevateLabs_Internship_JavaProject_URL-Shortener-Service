@@ -82,7 +82,8 @@ Built with Java, Spring Boot, and H2 in-memory database.
                 }
 
 **Response**
-**json**
+**(json:)**
+
 
                  {
                     "shortUrl": "http://localhost:8080/1"
