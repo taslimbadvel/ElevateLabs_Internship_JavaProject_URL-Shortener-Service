@@ -23,7 +23,7 @@ Built with Java, Spring Boot, and H2 in-memory database.
         │            └── Base62.java               # Base62 encoding utility
         └── resources
         ├── application.properties             # Configuration file
-        └── data.sql (optional)                # Initial data setup
+                     
         
 
 ---
@@ -70,21 +70,21 @@ Built with Java, Spring Boot, and H2 in-memory database.
 ## Example Usage
 **Postman Guide**(option1)
 
-1. Shorten a URL
+**1. Shorten a URL**
 
-Request  
-    POST http://localhost:8080/api/v1/shorten
-
-    json:
-
-    {
-        "longUrl": "https://www.google.com/search?q=spring+boot+url+shortener"
-    }
-**Response**
-    json:
-    {
-    "shortUrl": "http://localhost:8080/1"
-    }
+_Request_  
+            POST http://localhost:8080/api/v1/shorten
+        
+            json:
+        
+            {
+                "longUrl": "https://www.google.com/search?q=spring+boot+url+shortener"
+            }
+_Response_
+            json:
+            {
+            "shortUrl": "http://localhost:8080/1"
+            }
 
 **Swagger UI**(option2)
 
