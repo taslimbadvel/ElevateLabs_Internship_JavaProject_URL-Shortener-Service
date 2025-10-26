@@ -145,10 +145,10 @@ Password: *(leave empty)*
         
         SELECT * FROM URL_MAPPING;
 
-        ID  	CLICKS  	CREATED_AT  	LONG_URL  	SHORT_CODE  
-        1	1	2025-10-25 12:29:34.108863+00	https://www.wikipedia.org/	1
-        2	1	2025-10-25 12:46:50.789088+00	https://www.google.com	2
-        3	0	2025-10-25 13:15:35.835375+00	https://www.github.com/spring-projects/spring-boot	3
+        ID  	CLICKS  CREATED_AT  	                LONG_URL  	                                    SHORT_CODE  
+        1	      1	    2025-10-25 12:29:34.108863+00	https://www.wikipedia.org/	                         1
+        2	      1	    2025-10-25 12:46:50.789088+00	https://www.google.com	                             2
+        3	      0	    2025-10-25 13:15:35.835375+00	https://www.github.com/spring-projects/spring-boot	 3
         (3 rows, 3 ms)
 
 
